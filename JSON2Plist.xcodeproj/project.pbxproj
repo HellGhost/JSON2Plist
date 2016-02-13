@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		12A0F12C1C6FD2DD0024B54D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 12A0F12B1C6FD2DD0024B54D /* AppDelegate.m */; };
+		12A0F12F1C6FD2DD0024B54D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 12A0F12E1C6FD2DD0024B54D /* main.m */; };
+		12A0F1321C6FD2DD0024B54D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12A0F1311C6FD2DD0024B54D /* ViewController.m */; };
+		12A0F1341C6FD2DD0024B54D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12A0F1331C6FD2DD0024B54D /* Assets.xcassets */; };
+		12A0F1371C6FD2DD0024B54D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12A0F1351C6FD2DD0024B54D /* Main.storyboard */; };
+		12A0F1421C6FD2DD0024B54D /* JSON2PlistTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 12A0F1411C6FD2DD0024B54D /* JSON2PlistTests.m */; };
+		12A0F14D1C6FD2DD0024B54D /* JSON2PlistUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 12A0F14C1C6FD2DD0024B54D /* JSON2PlistUITests.m */; };
+		12A0F15C1C6FD7670024B54D /* FileManagedObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 12A0F15B1C6FD7670024B54D /* FileManagedObject.m */; };
+		12A0F15D1C6FD7670024B54D /* FileManagedObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 12A0F15B1C6FD7670024B54D /* FileManagedObject.m */; };
+		12A0F15E1C6FD7670024B54D /* FileManagedObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 12A0F15B1C6FD7670024B54D /* FileManagedObject.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		12A0F13E1C6FD2DD0024B54D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 12A0F11F1C6FD2DD0024B54D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 12A0F1261C6FD2DD0024B54D;
+			remoteInfo = JSON2Plist;
+		};
+		12A0F1491C6FD2DD0024B54D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 12A0F11F1C6FD2DD0024B54D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 12A0F1261C6FD2DD0024B54D;
+			remoteInfo = JSON2Plist;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		12A0F1271C6FD2DD0024B54D /* JSON2Plist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JSON2Plist.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		12A0F12A1C6FD2DD0024B54D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		12A0F12B1C6FD2DD0024B54D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		12A0F12E1C6FD2DD0024B54D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		12A0F1301C6FD2DD0024B54D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		12A0F1311C6FD2DD0024B54D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		12A0F1331C6FD2DD0024B54D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		12A0F1361C6FD2DD0024B54D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		12A0F1381C6FD2DD0024B54D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12A0F13D1C6FD2DD0024B54D /* JSON2PlistTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JSON2PlistTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		12A0F1411C6FD2DD0024B54D /* JSON2PlistTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSON2PlistTests.m; sourceTree = "<group>"; };
+		12A0F1431C6FD2DD0024B54D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12A0F1481C6FD2DD0024B54D /* JSON2PlistUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JSON2PlistUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		12A0F14C1C6FD2DD0024B54D /* JSON2PlistUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSON2PlistUITests.m; sourceTree = "<group>"; };
+		12A0F14E1C6FD2DD0024B54D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12A0F15A1C6FD7670024B54D /* FileManagedObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileManagedObject.h; sourceTree = "<group>"; };
+		12A0F15B1C6FD7670024B54D /* FileManagedObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileManagedObject.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		12A0F1241C6FD2DD0024B54D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12A0F13A1C6FD2DD0024B54D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12A0F1451C6FD2DD0024B54D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		12A0F11E1C6FD2DD0024B54D = {
+			isa = PBXGroup;
+			children = (
+				12A0F1291C6FD2DD0024B54D /* JSON2Plist */,
+				12A0F1401C6FD2DD0024B54D /* JSON2PlistTests */,
+				12A0F14B1C6FD2DD0024B54D /* JSON2PlistUITests */,
+				12A0F1281C6FD2DD0024B54D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		12A0F1281C6FD2DD0024B54D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				12A0F1271C6FD2DD0024B54D /* JSON2Plist.app */,
+				12A0F13D1C6FD2DD0024B54D /* JSON2PlistTests.xctest */,
+				12A0F1481C6FD2DD0024B54D /* JSON2PlistUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		12A0F1291C6FD2DD0024B54D /* JSON2Plist */ = {
+			isa = PBXGroup;
+			children = (
+				12A0F12A1C6FD2DD0024B54D /* AppDelegate.h */,
+				12A0F12B1C6FD2DD0024B54D /* AppDelegate.m */,
+				12A0F1301C6FD2DD0024B54D /* ViewController.h */,
+				12A0F1311C6FD2DD0024B54D /* ViewController.m */,
+				12A0F15A1C6FD7670024B54D /* FileManagedObject.h */,
+				12A0F15B1C6FD7670024B54D /* FileManagedObject.m */,
+				12A0F1331C6FD2DD0024B54D /* Assets.xcassets */,
+				12A0F1351C6FD2DD0024B54D /* Main.storyboard */,
+				12A0F1381C6FD2DD0024B54D /* Info.plist */,
+				12A0F12D1C6FD2DD0024B54D /* Supporting Files */,
+			);
+			path = JSON2Plist;
+			sourceTree = "<group>";
+		};
+		12A0F12D1C6FD2DD0024B54D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				12A0F12E1C6FD2DD0024B54D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		12A0F1401C6FD2DD0024B54D /* JSON2PlistTests */ = {
+			isa = PBXGroup;
+			children = (
+				12A0F1411C6FD2DD0024B54D /* JSON2PlistTests.m */,
+				12A0F1431C6FD2DD0024B54D /* Info.plist */,
+			);
+			path = JSON2PlistTests;
+			sourceTree = "<group>";
+		};
+		12A0F14B1C6FD2DD0024B54D /* JSON2PlistUITests */ = {
+			isa = PBXGroup;
+			children = (
+				12A0F14C1C6FD2DD0024B54D /* JSON2PlistUITests.m */,
+				12A0F14E1C6FD2DD0024B54D /* Info.plist */,
+			);
+			path = JSON2PlistUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		12A0F1261C6FD2DD0024B54D /* JSON2Plist */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12A0F1511C6FD2DD0024B54D /* Build configuration list for PBXNativeTarget "JSON2Plist" */;
+			buildPhases = (
+				12A0F1231C6FD2DD0024B54D /* Sources */,
+				12A0F1241C6FD2DD0024B54D /* Frameworks */,
+				12A0F1251C6FD2DD0024B54D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JSON2Plist;
+			productName = JSON2Plist;
+			productReference = 12A0F1271C6FD2DD0024B54D /* JSON2Plist.app */;
+			productType = "com.apple.product-type.application";
+		};
+		12A0F13C1C6FD2DD0024B54D /* JSON2PlistTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12A0F1541C6FD2DD0024B54D /* Build configuration list for PBXNativeTarget "JSON2PlistTests" */;
+			buildPhases = (
+				12A0F1391C6FD2DD0024B54D /* Sources */,
+				12A0F13A1C6FD2DD0024B54D /* Frameworks */,
+				12A0F13B1C6FD2DD0024B54D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				12A0F13F1C6FD2DD0024B54D /* PBXTargetDependency */,
+			);
+			name = JSON2PlistTests;
+			productName = JSON2PlistTests;
+			productReference = 12A0F13D1C6FD2DD0024B54D /* JSON2PlistTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		12A0F1471C6FD2DD0024B54D /* JSON2PlistUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12A0F1571C6FD2DD0024B54D /* Build configuration list for PBXNativeTarget "JSON2PlistUITests" */;
+			buildPhases = (
+				12A0F1441C6FD2DD0024B54D /* Sources */,
+				12A0F1451C6FD2DD0024B54D /* Frameworks */,
+				12A0F1461C6FD2DD0024B54D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				12A0F14A1C6FD2DD0024B54D /* PBXTargetDependency */,
+			);
+			name = JSON2PlistUITests;
+			productName = JSON2PlistUITests;
+			productReference = 12A0F1481C6FD2DD0024B54D /* JSON2PlistUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		12A0F11F1C6FD2DD0024B54D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = hell_ghost;
+				TargetAttributes = {
+					12A0F1261C6FD2DD0024B54D = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					12A0F13C1C6FD2DD0024B54D = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 12A0F1261C6FD2DD0024B54D;
+					};
+					12A0F1471C6FD2DD0024B54D = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 12A0F1261C6FD2DD0024B54D;
+					};
+				};
+			};
+			buildConfigurationList = 12A0F1221C6FD2DD0024B54D /* Build configuration list for PBXProject "JSON2Plist" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 12A0F11E1C6FD2DD0024B54D;
+			productRefGroup = 12A0F1281C6FD2DD0024B54D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				12A0F1261C6FD2DD0024B54D /* JSON2Plist */,
+				12A0F13C1C6FD2DD0024B54D /* JSON2PlistTests */,
+				12A0F1471C6FD2DD0024B54D /* JSON2PlistUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		12A0F1251C6FD2DD0024B54D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12A0F1341C6FD2DD0024B54D /* Assets.xcassets in Resources */,
+				12A0F1371C6FD2DD0024B54D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12A0F13B1C6FD2DD0024B54D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12A0F1461C6FD2DD0024B54D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		12A0F1231C6FD2DD0024B54D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12A0F1321C6FD2DD0024B54D /* ViewController.m in Sources */,
+				12A0F12F1C6FD2DD0024B54D /* main.m in Sources */,
+				12A0F15C1C6FD7670024B54D /* FileManagedObject.m in Sources */,
+				12A0F12C1C6FD2DD0024B54D /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12A0F1391C6FD2DD0024B54D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12A0F15D1C6FD7670024B54D /* FileManagedObject.m in Sources */,
+				12A0F1421C6FD2DD0024B54D /* JSON2PlistTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12A0F1441C6FD2DD0024B54D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12A0F15E1C6FD7670024B54D /* FileManagedObject.m in Sources */,
+				12A0F14D1C6FD2DD0024B54D /* JSON2PlistUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		12A0F13F1C6FD2DD0024B54D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 12A0F1261C6FD2DD0024B54D /* JSON2Plist */;
+			targetProxy = 12A0F13E1C6FD2DD0024B54D /* PBXContainerItemProxy */;
+		};
+		12A0F14A1C6FD2DD0024B54D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 12A0F1261C6FD2DD0024B54D /* JSON2Plist */;
+			targetProxy = 12A0F1491C6FD2DD0024B54D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		12A0F1351C6FD2DD0024B54D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				12A0F1361C6FD2DD0024B54D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		12A0F14F1C6FD2DD0024B54D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		12A0F1501C6FD2DD0024B54D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		12A0F1521C6FD2DD0024B54D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = JSON2Plist/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HG.Product.JSON2Plist;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		12A0F1531C6FD2DD0024B54D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = JSON2Plist/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HG.Product.JSON2Plist;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		12A0F1551C6FD2DD0024B54D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = JSON2PlistTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HG.Product.JSON2PlistTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JSON2Plist.app/Contents/MacOS/JSON2Plist";
+			};
+			name = Debug;
+		};
+		12A0F1561C6FD2DD0024B54D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = JSON2PlistTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HG.Product.JSON2PlistTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JSON2Plist.app/Contents/MacOS/JSON2Plist";
+			};
+			name = Release;
+		};
+		12A0F1581C6FD2DD0024B54D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = JSON2PlistUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HG.Product.JSON2PlistUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JSON2Plist;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		12A0F1591C6FD2DD0024B54D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = JSON2PlistUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HG.Product.JSON2PlistUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JSON2Plist;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		12A0F1221C6FD2DD0024B54D /* Build configuration list for PBXProject "JSON2Plist" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12A0F14F1C6FD2DD0024B54D /* Debug */,
+				12A0F1501C6FD2DD0024B54D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		12A0F1511C6FD2DD0024B54D /* Build configuration list for PBXNativeTarget "JSON2Plist" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12A0F1521C6FD2DD0024B54D /* Debug */,
+				12A0F1531C6FD2DD0024B54D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		12A0F1541C6FD2DD0024B54D /* Build configuration list for PBXNativeTarget "JSON2PlistTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12A0F1551C6FD2DD0024B54D /* Debug */,
+				12A0F1561C6FD2DD0024B54D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		12A0F1571C6FD2DD0024B54D /* Build configuration list for PBXNativeTarget "JSON2PlistUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12A0F1581C6FD2DD0024B54D /* Debug */,
+				12A0F1591C6FD2DD0024B54D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 12A0F11F1C6FD2DD0024B54D /* Project object */;
+}
